@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/lab04.dir/main.cpp.o CMakeFiles/lab04.dir/function.cpp.o  -o lab04 -lpthread 

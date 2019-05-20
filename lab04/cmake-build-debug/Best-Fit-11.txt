@@ -1,0 +1,708 @@
+
+ BEST FIT SIMULATOR 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ 0 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS 0] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+
+		0 - 1999: HOLE 
+
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+
+		0 - 1999: HOLE 
+
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+
+		0 - 1999: HOLE 
+
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 32671 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 32671 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 32671 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 32671 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 32671 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process -2021739741 arrives
+	 Input Queue: [ -2017083104 32671 -2021739741 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS -2021739741] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+
+		0 - 1999: HOLE 
+
+
+ T = 0: Process 32671 arrives
+	 Input Queue: [ -2017083104 32671 32671 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS 32671] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+
+		0 - 1999: HOLE 
+
+
+ T = 0: Process -2017514896 arrives
+	 Input Queue: [ -2017083104 -2017514896 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS -2017514896] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+
+		0 - 1999: HOLE 
+
+
+ T = 0: Process 32671 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process -2017515144 arrives
+	 Input Queue: [ -2017083104 -2017515144 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS -2017515144] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+
+		0 - 1999: HOLE 
+
+
+ T = 0: Process 32671 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process -2017481568 arrives
+	 Input Queue: [ -2017083104 -2017481568 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS -2017481568] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+
+		0 - 1999: HOLE 
+
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		0 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 ]
+	 Memory map:
+		6 - 1999: HOLE 
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+
+		6 - 1999: HOLE 
+
+
+ T = 0: Process 32671 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		6 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		6 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 8192 arrives
+	 Input Queue: [ -2017083104 -2017486848 8192 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS 8192] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+  6 - 9: PROCESS 0
+
+		10 - 1999: HOLE 
+
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 32671 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+  6 - 9: PROCESS 0
+
+		10 - 1999: HOLE 
+
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+  6 - 9: PROCESS 0
+
+		10 - 1999: HOLE 
+
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+  6 - 9: PROCESS 0
+
+		10 - 1999: HOLE 
+
+
+ T = 0: Process 32671 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process -2017514856 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 -2017514856 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS -2017514856] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+  6 - 9: PROCESS 0
+
+		10 - 1999: HOLE 
+
+
+ T = 0: Process 32671 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 6 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 6 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS 6] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+  6 - 9: PROCESS 0
+
+		10 - 1999: HOLE 
+
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 4098 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 4098 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS 4098] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+  6 - 9: PROCESS 0
+
+		10 - 1999: HOLE 
+
+
+ T = 0: Process 0 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+ T = 0: Process 4 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 4 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS 4] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+  6 - 9: PROCESS 0
+
+		10 - 1999: HOLE 
+
+
+ T = 0: Process 21926 arrives
+	 Input Queue: [ -2017083104 -2017486848 1660184832 32767 -2017483216 21926 ]
+	 Memory map:
+		10 - 1999: HOLE 
+
+---------------------------------------------
+
+[Timer] = 0
+ [PROCESS 21926] Completes.
+ After Execution of 0 Time Units.
+
+---------------------------------------------
+
+
+ _______________________________ 
+  MEMORY MAP [TIMER]= 0
+ _______________________________ 
+
+  0 - 5: PROCESS 0
+  6 - 9: PROCESS 0
+
+		10 - 1999: HOLE 
+

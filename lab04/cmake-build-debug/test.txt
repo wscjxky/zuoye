@@ -1,0 +1,11 @@
+# proc-id mem_frames 进程开始轮次/进程运行轮次 <...> burstn_arr_time/burstn_run_time
+X 10 0/200 400/100
+Y 20 0/1000
+Z 5 0/500 800/100
+#D 86 0/650 1350/450
+#E 14 0/1400
+## This is also a comment
+#F 24 100/380 500/475
+#G 13 435/815
+#J 46 550/900
+# this too
