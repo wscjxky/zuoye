@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xky/CLionProjects/lab05/function.h
+/home/xky/Coding/zuoye/lab05/function.h
 stdio.h
 -
 stdlib.h
@@ -20,7 +20,7 @@ alloca.h
 iostream
 -
 
-/home/xky/CLionProjects/lab05/main.cpp
+/home/xky/Coding/zuoye/lab05/main.cpp
 function.h
-/home/xky/CLionProjects/lab05/function.h
+/home/xky/Coding/zuoye/lab05/function.h
 
