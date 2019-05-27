@@ -219,7 +219,6 @@ def print_slr1():
         print("%s + %s -> %s" % (g[0], g[1], ACTION[g]), end='\t')
     print()
     print('\t\tSLR分析表')
-    print(VT)
     head=[' ']
     head.extend(VT)
     VN.remove('S')
@@ -264,7 +263,7 @@ def analy_slr1():
     signal_arr = []
     signal_arr.append('#')
     in_str = 'i=i+i*ii#'
-    in_str = 'i=i*(i+i)#'
+    # in_str = 'i=i*(i+i)#'
     print('\t\t\t\tSLR(1)分析过程如下')
     tb = PrettyTable(["状态栈", '符号栈', '输入符号串', 'ACTION', 'GOTO'])
     while True:
@@ -318,7 +317,7 @@ def analy_slr1():
         # 如果状态是acc则结束分析，接受字符串
         elif now_slr_act == 'acc':
             print(tb)
-            print('接受字符串:%s ，规约成功！' % in_str)
+            print('接受字符串:%s ！' % in_str)
             break
         else:
             print(tb)
