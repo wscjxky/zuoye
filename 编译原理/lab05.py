@@ -7,6 +7,7 @@ from collections import defaultdict
 FIRST = {}
 FOLLOW = {}
 Table = {}
+<<<<<<< HEAD
 DFA={0: ['S->·A', 'A->·V=E', 'V->·i'], 1: ['S->A·'], 2: ['A->V·=E'], 3: ['V->i·'], 4: ['A->V=·E', 'E->·E+T', 'E->·E-T', 'E->·T', 'T->·T*F', 'T->·T/F', 'T->·F', 'F->·(E)', 'F->·i'], 5: ['A->V=E·', 'E->E·+T', 'E->E·-T'], 6: ['E->T·', 'T->T·*F', 'T->T·/F'], 7: ['T->F·'], 8: ['F->(·E)', 'E->·E+T', 'E->·E-T', 'E->·T', 'T->·T*F', 'T->·T/F', 'T->·F', 'F->·(E)', 'F->·i'], 9: ['F->i·'], 10: ['E->E+·T', 'T->·T*F', 'T->·T/F', 'T->·F', 'F->·(E)', 'F->·i'], 11: ['E->E-·T', 'T->·T*F', 'T->·T/F', 'T->·F', 'F->·(E)', 'F->·i'], 12: ['T->T*·F', 'F->·(E)', 'F->·i'], 13: ['T->T/·F', 'F->·(E)', 'F->·i'], 14: ['F->(E·)', 'E->E·+T', 'E->E·-T'], 15: ['E->E+T·', 'T->T·*F', 'T->T·/F'], 16: ['E->E-T·', 'T->T·*F', 'T->T·/F'], 17: ['T->T*F·'], 18: ['T->T/F·'], 19: ['F->(E)·']}
 ACTION = {('0', 'i'): 's3', ('1', '#'): 'r0', ('2', '='): 's4', ('3', '='): 'r10', ('4', '('): 's8', ('4', 'i'): 's9',
         ('5', '#'): 'r1', ('5', '+'): 's10', ('5', '-'): 's11', ('6', '#'): 'r4', ('6', '+'): 'r4',
@@ -26,6 +27,47 @@ ACTION = {('0', 'i'): 's3', ('1', '#'): 'r0', ('2', '='): 's4', ('3', '='): 'r10
 GOTO = {('0', 'A'): '1', ('0', 'V'): '2', ('4', 'E'): '5', ('4', 'T'): '6', ('4', 'F'): '7', ('8', 'E'): '14',
           ('8', 'T'): '6', ('8', 'F'): '7', ('10', 'T'): '15', ('10', 'F'): '7', ('11', 'T'): '16',
           ('11', 'F'): '7', ('12', 'F'): '17', ('13', 'F'): '18'}
+=======
+GOTO = {('0', ' i'): 's3', ('1', ' #'): 'acc', ('2', ' ='): ')', ('3', ' ='): ')', ('4', ' ('): 's8', ('4', ' i'): 's9',
+        ('5', ' #'): 'r1', ('5', ' +'): 's10', ('5', ' -'): 's11', ('6', ' #'): 'r4', ('6', ' +'): 'r4',
+        ('6', ' -'): 'r4', ('6', ' )'): 'r4', ('6', ' *'): 's12', ('6', ' /'): 's13', ('7', ' #'): 'r7',
+        ('7', ' +'): 'r7', ('7', ' -'): 'r7', ('7', ' *'): 'r7', ('7', ' /'): 'r7', ('7', ' )'): 'r7',
+        ('8', ' ('): 's8', ('8', ' i'): 's9', ('9', ' #'): 'r9', ('9', ' +'): 'r9', ('9', ' -'): 'r9',
+        ('9', ' *'): 'r9', ('9', ' /'): 'r9', ('9', ' )'): 'r9', ('10', ' ('): 's8', ('10', ' i'): 's9',
+        ('11', ' ('): 's8', ('11', ' i'): 's9', ('12', ' ('): 's8', ('12', ' i'): 's9', ('13', ' ('): 's8',
+        ('13', ' i'): 's9', ('14', ' )'): 's19', ('14', ' +'): 's10', ('14', ' -'): 's11', ('15', ' #'): 'r2',
+        ('15', ' +'): 'r2', ('15', ' -'): 'r2', ('15', ' )'): 'r2', ('15', ' *'): 's12', ('15', ' /'): 's13',
+        ('16', ' #'): 'r3', ('16', ' +'): 'r3', ('16', ' -'): 'r3', ('16', ' )'): 'r3', ('16', ' *'): 's12',
+        ('16', ' /'): 's13', ('17', ' #'): 'r5', ('17', ' +'): 'r5', ('17', ' -'): 'r5', ('17', ' *'): 'r5',
+        ('17', ' /'): 'r5', ('17', ' )'): 'r5', ('18', ' #'): 'r6', ('18', ' +'): 'r6', ('18', ' -'): 'r6',
+        ('18', ' *'): 'r6', ('18', ' /'): 'r6', ('18', ' )'): 'r6', ('19', ' #'): 'r8', ('19', ' +'): 'r8',
+        ('19', ' -'): 'r8', ('19', ' *'): 'r8', ('19', ' /'): 'r8', ('19', ' )'): 'r8'}
+
+ACTION = {('0', ' A'): '1', ('0', ' V'): '2', ('4', ' E'): '5', ('4', ' T'): '6', ('4', ' F'): '7', ('8', ' E'): '14',
+          ('8', ' T'): '6', ('8', ' F'): '7', ('10', ' T'): '15', ('10', ' F'): '7', ('11', ' T'): '16',
+          ('11', ' F'): '7', ('12', ' F'): '17', ('13', ' F'): '18'}
+>>>>>>> 01f7f7d18ede86417fc23bd38c71a8c86c0768b9
+
+SLR_TABLE = [[None, None, None, None, None, None, None, 's3', None, 1, 2, None, None, None],
+             [None, None, None, None, None, None, None, None, 'acc', None, None, None, None, None],
+             ['s4', None, None, None, None, None, None, None, None, None, None, None, None, None],
+             ['r10', None, None, None, None, None, None, None, None, None, None, None, None, None],
+             [None, None, None, None, None, 's8', None, 's9', None, None, None, 5, 6, 7],
+             [None, 's10', 's11', None, None, None, None, None, 'r1', None, None, None, None, None],
+             [None, 'r4', 'r4', 's12', 's13', None, 'r4', None, 'r4', None, None, None, None, None],
+             [None, 'r7', 'r7', 'r7', 'r7', None, 'r7', None, 'r7', None, None, None, None, None],
+             [None, None, None, None, None, 's8', None, 's9', None, None, None, 14, 6, 7],
+             [None, 'r9', 'r9', 'r9', 'r9', None, 'r9', None, 'r9', None, None, None, None, None],
+             [None, None, None, None, None, 's8', None, 's9', None, None, None, None, 15, 7],
+             [None, None, None, None, None, 's8', None, 's9', None, None, None, None, 16, 7],
+             [None, None, None, None, None, 's8', None, 's9', None, None, None, None, None, 17],
+             [None, None, None, None, None, 's8', None, 's9', None, None, None, None, None, 18],
+             [None, 's10', 's11', None, None, None, 's19', None, None, None, None, None, None, None],
+             [None, 'r2', 'r2', 's12', 's13', None, 'r2', None, 'r2', None, None, None, None, None],
+             [None, 'r3', 'r3', 's12', 's13', None, 'r3', None, 'r3', None, None, None, None, None],
+             [None, 'r5', 'r5', 'r5', 'r5', None, 'r5', None, 'r5', None, None, None, None, None],
+             [None, 'r6', 'r6', 'r6', 'r6', None, 'r6', None, 'r6', None, None, None, None, None],
+             [None, 'r8', 'r8', 'r8', 'r8', None, 'r8', None, 'r8', None, None, None, None, None]]
 
 # 终结符集合
 VT = set()
@@ -55,6 +97,7 @@ def gen_lang():
     global VT
     global VN
     global START
+
     with open('Lang.txt', 'r', encoding='utf8')as f:
         ls = f.readlines()
         START = ls[0][2]
@@ -75,14 +118,19 @@ def gen_lang():
             more_value = value.split("|")
             for m in more_value:
                 if key in LANGUAGE.keys():
-                    VN.add(key)
+                    if key not in VN:
+                        VN.add(key)
                     LANGUAGE[key].append(m)
                 else:
-                    VN.add(key)
+                    if key not in VN:
+                        VN.add(key)
                     LANGUAGE[key] = [m]
     # 去掉|号
     VT.remove('|')
     print("START: %s VN：%s VT：%s" % (START, VN, VT))
+    # LANG变为list形式
+    VN = ['S', 'A', 'V', 'E', 'T', 'F']
+    VT = ['=', '+', '-', '*', '/', '(', ')', 'i', '#']
     print("LANGUAGE：%s" % LANGUAGE)
 
 
@@ -179,47 +227,38 @@ def gen_table():
     print('分析表：%s' % TABLE)
 
 
-def main():
-    stack = ['#', 'S']
-    instr = "i=i+i*i#"
-    in_len = len(instr)
-    print('分析过程:')
-    VT.add('$')
-    flag = 1
-    while stack:
-        if stack[-1] in VT:
-            # 如果栈顶刚好是终结符，接受并且pop栈
-            if stack[-1] == instr[0]:
-                t = instr[0]
-                stack.pop()
-                instr = instr[1:]
-                print("%s        %s     %s" % (stack, t, instr))
-        # 如果栈顶是非终结符
-        elif stack[-1] in VN:
-            while True:
-                # 查分析表，如果能够接受，接受并pop
-                match = stack.pop() + ',' + instr[0]
-                if (instr) == '#':
-                    stack.pop()
-                    print("%s        %s     %s" % (stack, instr[0], ''))
-                    print('分析完成，字符串被成功接收！')
-                    exit()
-                # 查分析表，推导下一个生成式
-                if (match in TABLE.keys()):
-                    for i in reversed(TABLE[match]):
-                        if i == '$':
-                            break
-                        stack.append(i)
-                    print("%s        %s     %s" % (stack, instr[0], instr))
-                if not stack:
-                    print('分析完成，字符串被拒绝接收,错误字符为%s，位置在%s' % (instr[0], (in_len - len(instr))))
-                    exit()
-                if stack[-1] in VT:
-                    break
-                if stack[-1] == 'X' and flag:
-                    flag = 0
-                    stack.pop()
+def print_slr1():
+    print('\t\tGOTO表')
+    for i, g in enumerate(GOTO):
+        if i % 5 == 0 and i != 0:
+            print()
+        print("%s + %s -> %s" % (g[0], g[1], GOTO[g]), end='\t')
+    print()
+    print('\t\tACTION表')
+    for i, g in enumerate(ACTION):
+        if i % 5 == 0 and i != 0:
+            print()
+        print("%s + %s -> %s" % (g[0], g[1], ACTION[g]), end='\t')
+    print()
+    print('\t\tSLR分析表')
+    print(VT)
+    head=[' ']
+    head.extend(VT)
+    VN.remove('S')
+    head.extend(VN)
+    tb = PrettyTable(head)
+    for state,value in enumerate(SLR_TABLE):
+        row=[state]
+        row.extend(value)
+        tb.add_row(row)
+    print(tb)
+    VN.insert(0,'S')
+def find_vt(f_vt):
+    for index, v in enumerate(VT):
+        if v == f_vt:
+            return index
 
+<<<<<<< HEAD
 def show_items():
     items=[]
     statuses=[]
@@ -229,9 +268,108 @@ def show_items():
     for key in DFA.keys():
         tb.add_row([key,DFA[key]])
     print(tb)
+=======
+
+def find_vn(f_vn):
+    for index, v in enumerate(VN):
+        if v == f_vn:
+            return index
+
+
+def analy_slr1():
+    global VN
+    global LANGUAGE
+    N_LANGUAGE = []
+    N_LANGUAGE.append(['S', 'A'])
+    for key in LANGUAGE:
+        for value in LANGUAGE[key]:
+            value_arr = []
+            for v in value:
+                value_arr.append(v)
+            N_LANGUAGE.append([key, value_arr])
+    LANGUAGE = N_LANGUAGE
+    # 初始化状态
+    now = 0
+    stage_arr = []
+    stage_arr.append(0)
+    # 创建符号栈
+    signal_arr = []
+    signal_arr.append('#')
+    in_str = 'i=i+i*ii#'
+    in_str = 'i=i*(i+i)#'
+    print('\t\t\t\tSLR(1)分析过程如下')
+    tb = PrettyTable(["状态栈", '符号栈', '输入符号串', 'ACTION', 'GOTO'])
+    while True:
+        row = []
+        # 加入状态栈行和符号栈行
+        row.append(str(stage_arr))
+        row.append(str(signal_arr))
+        # 读入下一个状态
+        now_stage = stage_arr[-1]
+        now_slr_act = SLR_TABLE[now_stage][find_vt(in_str[now])]
+        if now_slr_act and 's' in now_slr_act:
+            # 如果当前状态与字符指针所指字符在SLR表中是ACTION,状态转换，则把当前now_stage字符压栈，
+            # 因为每次压栈时要同时压入字符和状态，此时压入的对应的状态就是ACTION里标明的状态，然后读取下一个字符
+            next_status = int(now_slr_act[1:])
+            stage_arr.append(next_status)
+            signal_arr.append(in_str[now])
+            row.append(in_str[now:])
+            row.append(now_slr_act)
+            now += 1
+            if len(row) != 5:
+                row.append('')
+            tb.add_row(row)
+        elif now_slr_act and 'r' in now_slr_act:
+            # 如果当前状态与字符指针所指字符在SLR表中是REDUCE，首先查看Ri对应的产生式，
+            # 比如说A->V=E，此时则需要弹出栈中的V=E，把A压栈
+            row.append(in_str[now:])
+            row.append(now_slr_act)
+            rulepos = int(now_slr_act[1:])
+            count = 0
+            while count != len(LANGUAGE[rulepos][1]):
+                # 与A同时压栈的状态为当前的状态
+                # 字符和状态一起弹出
+                signal_arr.pop()
+                stage_arr.pop()
+                count += 1
+            signal_arr.append(LANGUAGE[rulepos][0])
+            now_siagnl = signal_arr[-1]
+            while True:
+                # 查找A在SLR表中对应的GOTO，如果当前状态为1，那么与A一起压栈的状态就是(1，A)对应的GOTO状态。
+                now_stage = stage_arr[-1]
+                now_slr_go = SLR_TABLE[now_stage][find_vn(now_siagnl) + len(VT) - 1]
+                if now_slr_go:
+                    stage_arr.append(now_slr_go)
+                    row.append(now_slr_go)
+                    break
+                else:
+                    stage_arr.pop()
+            if len(row) != 5:
+                row.append('')
+            tb.add_row(row)
+        # 如果状态是acc则结束分析，接受字符串
+        elif now_slr_act == 'acc':
+            print(tb)
+            print('接受字符串:%s ，规约成功！' % in_str)
+            break
+        else:
+            print(tb)
+            print('%s为不合法字符串' % in_str)
+            print('接受字符串失败，错误字符串:%s ,错误字符：%s！' % (in_str, in_str[0]))
+            break
+
+
+>>>>>>> 01f7f7d18ede86417fc23bd38c71a8c86c0768b9
 if __name__ == '__main__':
-    time.time()
+    start = time.time()
     gen_lang()
     gen_first()
     gen_follow()
+<<<<<<< HEAD
     show_items()
+=======
+    print_slr1()
+    analy_slr1()
+    end = time.time()
+    print("花费时间：%s" % (end - start))
+>>>>>>> 01f7f7d18ede86417fc23bd38c71a8c86c0768b9
