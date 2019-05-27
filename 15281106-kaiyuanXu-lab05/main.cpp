@@ -6,7 +6,7 @@
 int tables_num_arr[PAGE_SIZE];  //用于存页表号的数组
 int tables_frame_arr[PAGE_SIZE];   // 用于存页帧的数组
 int phy_mem_matrix[FRAMES_COUNT][FRAME_SIZE]; // 物理地址是个二维矩阵，行数为frame数，列数为每个frame大小
-int page_faults_count = 0;   // 缺页错误数
+int page_faults_count = 0;   // 缺页终端数
 int TLB_hit_count = 0;
 int TLB_num_arr[TLB_ENTRIES];  // ＴＬＢ中用于存页表号的数组
 int TLB_frame_arr[TLB_ENTRIES]; // ＴＬＢ中用于存页帧的数组
@@ -42,7 +42,7 @@ void get_page(int add) {
                 frame_no = tables_frame_arr[i];
             }
         }
-        if (frame_no == -1) {                   //如果找不到就缺页错误就加１
+        if (frame_no == -1) {                   //如果找不到就缺页终端就加１
             get_backstore(page_no);
             page_faults_count++;
             frame_no = first_free_frame - 1;
@@ -100,7 +100,7 @@ void insertIntoTLB(int page_no, int frame_no) {
     }
 }
 
-//产生缺页错误就从ｂａｃｋ.bin中获取匹配的页表．填充这一页的所有frame;
+//产生缺页终端就从ｂａｃｋ.bin中获取匹配的页表．填充这一页的所有frame;
 void get_backstore(int page_no) {
 //使用ｃ语言自带的ｆｓｅｅｋ函数，定位到页表位置．
     int seek_status = fseek(backing_store, page_no * READ_BUF, SEEK_SET);
@@ -129,8 +129,8 @@ int main() {
     double page_fault_radio = (double) page_faults_count / (double) trans_count;
     double TLB_hit_radio = (double) TLB_hit_count / (double) trans_count;
     cout << "转换的地址次数：" << trans_count << endl;
-    cout << "缺页错误的次数：" << page_faults_count << endl;
-    cout << "缺页错误率：" << page_fault_radio << endl;
+    cout << "缺页终端的次数：" << page_faults_count << endl;
+    cout << "缺页终端率：" << page_fault_radio << endl;
     cout << "TLB命中次数：" << TLB_hit_count << endl;
     cout << "TLB命中率：" << TLB_hit_radio << endl;
     return 0;
