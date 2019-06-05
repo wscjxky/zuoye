@@ -28,7 +28,16 @@ class Punctuator:
     AssignSub = 68, "-="
     AssignMul = 69, "*="
     AssignDiv = 70, "/="
+    IF = 71, "if"
 
+SINGLE_OPERATE_MAP={
+    '+': Punctuator.Add,
+    '-': Punctuator.Sub,
+    '*': Punctuator.Mul,
+    '/': Punctuator.Div,
+    '=': Punctuator.Div,
+    'i': Punctuator.IF,
+}
 SINGLE_PUNC_MAP = {
     ';': Punctuator.Semicolon,
     ':': Punctuator.Colon,

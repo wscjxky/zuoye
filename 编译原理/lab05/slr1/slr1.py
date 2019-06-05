@@ -4,6 +4,8 @@
 import time
 from collections import defaultdict
 
+from lexer.punc import SINGLE_PUNC_MAP, SINGLE_OPERATE_MAP
+
 FOLLOW = {}
 Table = {}
 
@@ -278,7 +280,7 @@ def analy_slr1():
     signal_arr.append('#')
     # in_str = 'i=i+i*ii#'
     # in_str = 'i=i*(i+i)#'
-    in_str='km(){v=dr}#'
+    in_str='km(){kvv=dr}#'
     print('\t\t\t\tSLR(1)分析过程如下')
     tb = PrettyTable(["状态栈", '符号栈', '输入符号串', 'ACTION', 'GOTO'])
     while True:
@@ -312,21 +314,25 @@ def analy_slr1():
             while count != len(LANGUAGE[rulepos][1]):
                 # 与A同时压栈的状态为当前的状态
                 # 字符和状态一起弹出
-                s =signal_arr.pop()
+                punc =signal_arr.pop()
                 stage_arr.pop()
                 count += 1
-                temp_arr.append(s)
+                temp_arr.append(punc)
+                if punc in SINGLE_OPERATE_MAP.keys():
+                    print(punc)
+                    print(signal_arr)
+                    print(temp_arr)
             signal_arr.append(LANGUAGE[rulepos][0])
             now_siagnl = signal_arr[-1]
             inputs=['void', 'main', '(', ')', '{','a','=','1', 'return', '}']
             sta_len=(len(stage_arr))
             sig_len=(len(signal_arr))
             # print(now_siagnl,temp_arr)
-            for k in temp_arr:
-                print(k)
-                print(in_str.index(k))
-                s=inputs[in_str.index(k)]
-                print(s)
+            # for k in temp_arr:
+            #     print(k)
+            #     print(in_str.index(k))
+            #     s=inputs[in_str.index(k)]
+            #     print(s)
             # print(inputs[sta_len],inputs[sig_len])
 
             while True:
@@ -344,7 +350,7 @@ def analy_slr1():
             tb.add_row(row)
         # 如果状态是acc则结束分析，接受字符串
         elif now_slr_act == 'acc':
-            print(tb)
+            # print(tb)
             print('接受字符串:%s ！' % in_str)
             break
         else:
