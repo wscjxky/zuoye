@@ -1,0 +1,9 @@
+G[S]:
+S->MP
+P->{AIr}|{Ar}
+M->km()
+A->v=E|I|kvA|kv
+I->i(v<d){A}
+O->vCd
+C-><|>
+E->E+E|E-E|E*E|E/E|(E)|d

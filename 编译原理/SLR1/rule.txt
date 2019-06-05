@@ -1,11 +1,15 @@
-S -> A
-A -> V=E
-E -> E + T
-E -> E - T
-E -> T
-T -> T * F
-T -> T / F
-T -> F
-F -> (E)
-F -> i
-V -> i
+S -> P
+P -> km(){AIr}
+A -> kvA
+A -> v=E
+A -> I
+I -> i(v<d){A}
+O -> vCd
+C -> <
+C -> >
+E -> E+E
+E -> E-E
+E -> E*E
+E -> E/E
+E -> (E)
+E -> d

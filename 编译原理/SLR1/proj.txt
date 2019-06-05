@@ -1,164 +1,310 @@
 项目集族如下
 I0
-S -> .A
-A -> .V=E
-V -> .i
+S -> .P
+P -> .km(){AIr}
 I1
-S -> A.
+S -> P.
 I2
-A -> V.=E
+P -> k.m(){AIr}
 I3
-V -> i.
+P -> km.(){AIr}
 I4
-A -> V=.E
-E -> .E+T
-E -> .E-T
-E -> .T
-T -> .T*F
-T -> .T/F
-T -> .F
-F -> .(E)
-F -> .i
+P -> km(.){AIr}
 I5
-A -> V=E.
-E -> E.+T
-E -> E.-T
+P -> km().{AIr}
 I6
-E -> T.
-T -> T.*F
-T -> T./F
+P -> km(){.AIr}
+A -> .kvA
+A -> .v=E
+A -> .I
+I -> .i(v<d){A}
 I7
-T -> F.
+P -> km(){A.Ir}
+I -> .i(v<d){A}
 I8
-F -> (.E)
-E -> .E+T
-E -> .E-T
-E -> .T
-T -> .T*F
-T -> .T/F
-T -> .F
-F -> .(E)
-F -> .i
+A -> k.vA
 I9
-F -> i.
+A -> v.=E
 I10
-E -> E+.T
-T -> .T*F
-T -> .T/F
-T -> .F
-F -> .(E)
-F -> .i
+A -> I.
 I11
-E -> E-.T
-T -> .T*F
-T -> .T/F
-T -> .F
-F -> .(E)
-F -> .i
+I -> i.(v<d){A}
 I12
-T -> T*.F
-F -> .(E)
-F -> .i
+P -> km(){AI.r}
 I13
-T -> T/.F
-F -> .(E)
-F -> .i
+A -> kv.A
+A -> .kvA
+A -> .v=E
+A -> .I
+I -> .i(v<d){A}
 I14
-F -> (E.)
-E -> E.+T
-E -> E.-T
+A -> v=.E
+E -> .E+E
+E -> .E-E
+E -> .E*E
+E -> .E/E
+E -> .(E)
+E -> .d
 I15
-E -> E+T.
-T -> T.*F
-T -> T./F
+I -> i(.v<d){A}
 I16
-E -> E-T.
-T -> T.*F
-T -> T./F
+P -> km(){AIr.}
 I17
-T -> T*F.
+A -> kvA.
 I18
-T -> T/F.
+A -> v=E.
+E -> E.+E
+E -> E.-E
+E -> E.*E
+E -> E./E
 I19
-F -> (E).
+E -> (.E)
+E -> .E+E
+E -> .E-E
+E -> .E*E
+E -> .E/E
+E -> .(E)
+E -> .d
+I20
+E -> d.
+I21
+I -> i(v.<d){A}
+I22
+P -> km(){AIr}.
+I23
+E -> E+.E
+E -> .E+E
+E -> .E-E
+E -> .E*E
+E -> .E/E
+E -> .(E)
+E -> .d
+I24
+E -> E-.E
+E -> .E+E
+E -> .E-E
+E -> .E*E
+E -> .E/E
+E -> .(E)
+E -> .d
+I25
+E -> E*.E
+E -> .E+E
+E -> .E-E
+E -> .E*E
+E -> .E/E
+E -> .(E)
+E -> .d
+I26
+E -> E/.E
+E -> .E+E
+E -> .E-E
+E -> .E*E
+E -> .E/E
+E -> .(E)
+E -> .d
+I27
+E -> (E.)
+E -> E.+E
+E -> E.-E
+E -> E.*E
+E -> E./E
+I28
+I -> i(v<.d){A}
+I29
+E -> E+E.
+E -> E.+E
+E -> E.-E
+E -> E.*E
+E -> E./E
+I30
+E -> E-E.
+E -> E.+E
+E -> E.-E
+E -> E.*E
+E -> E./E
+I31
+E -> E*E.
+E -> E.+E
+E -> E.-E
+E -> E.*E
+E -> E./E
+I32
+E -> E/E.
+E -> E.+E
+E -> E.-E
+E -> E.*E
+E -> E./E
+I33
+E -> (E).
+I34
+I -> i(v<d.){A}
+I35
+I -> i(v<d).{A}
+I36
+I -> i(v<d){.A}
+A -> .kvA
+A -> .v=E
+A -> .I
+I -> .i(v<d){A}
+I37
+I -> i(v<d){A.}
+I38
+I -> i(v<d){A}.
 
 识别活前缀的DFA如下
 初始状态	接收终结符	到达的状态	
-I0		A		I1		
+I0		P		I1		
 
-I0		V		I2		
+I0		k		I2		
 
-I0		i		I3		
+I2		m		I3		
 
-I2		=		I4		
+I3		(		I4		
 
-I4		E		I5		
+I4		)		I5		
 
-I4		T		I6		
+I5		{		I6		
 
-I4		F		I7		
+I6		A		I7		
 
-I4		(		I8		
+I6		k		I8		
 
-I4		i		I9		
+I6		v		I9		
 
-I5		+		I10		
+I6		I		I10		
 
-I5		-		I11		
+I6		i		I11		
 
-I6		*		I12		
+I7		I		I12		
 
-I6		/		I13		
+I7		i		I11		
 
-I8		E		I14		
+I8		v		I13		
 
-I8		T		I6		
+I9		=		I14		
 
-I8		F		I7		
+I11		(		I15		
 
-I8		(		I8		
+I12		r		I16		
 
-I8		i		I9		
+I13		A		I17		
 
-I10		T		I15		
+I13		k		I8		
 
-I10		F		I7		
+I13		v		I9		
 
-I10		(		I8		
+I13		I		I10		
 
-I10		i		I9		
+I13		i		I11		
 
-I11		T		I16		
+I14		E		I18		
 
-I11		F		I7		
+I14		(		I19		
 
-I11		(		I8		
+I14		d		I20		
 
-I11		i		I9		
+I15		v		I21		
 
-I12		F		I17		
+I16		}		I22		
 
-I12		(		I8		
+I18		+		I23		
 
-I12		i		I9		
+I18		-		I24		
 
-I13		F		I18		
+I18		*		I25		
 
-I13		(		I8		
+I18		/		I26		
 
-I13		i		I9		
+I19		E		I27		
 
-I14		)		I19		
+I19		(		I19		
 
-I14		+		I10		
+I19		d		I20		
 
-I14		-		I11		
+I21		<		I28		
 
-I15		*		I12		
+I23		E		I29		
 
-I15		/		I13		
+I23		(		I19		
 
-I16		*		I12		
+I23		d		I20		
 
-I16		/		I13		
+I24		E		I30		
+
+I24		(		I19		
+
+I24		d		I20		
+
+I25		E		I31		
+
+I25		(		I19		
+
+I25		d		I20		
+
+I26		E		I32		
+
+I26		(		I19		
+
+I26		d		I20		
+
+I27		)		I33		
+
+I27		+		I23		
+
+I27		-		I24		
+
+I27		*		I25		
+
+I27		/		I26		
+
+I28		d		I34		
+
+I29		+		I23		
+
+I29		-		I24		
+
+I29		*		I25		
+
+I29		/		I26		
+
+I30		+		I23		
+
+I30		-		I24		
+
+I30		*		I25		
+
+I30		/		I26		
+
+I31		+		I23		
+
+I31		-		I24		
+
+I31		*		I25		
+
+I31		/		I26		
+
+I32		+		I23		
+
+I32		-		I24		
+
+I32		*		I25		
+
+I32		/		I26		
+
+I34		)		I35		
+
+I35		{		I36		
+
+I36		A		I37		
+
+I36		k		I8		
+
+I36		v		I9		
+
+I36		I		I10		
+
+I36		i		I11		
+
+I37		}		I38		
 

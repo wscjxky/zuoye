@@ -127,7 +127,6 @@ def create_rule_list():
             if new_sym not in rule_list[j].right:
                 rule_list[j].right.append(new_sym)
 
-
 # 创建first集
 def create_first_set(ch):
     for i in range(0, len(rule_list)):
@@ -149,7 +148,6 @@ def create_first_set(ch):
                     for c in First[VN.index(rule_list[i].right[0])]:
                         if c not in First[VN.index(ch)]:
                             First[VN.index(ch)].extend(c)
-
 
 # 创建follow集
 def create_follow_set(ch):
@@ -444,3 +442,7 @@ if __name__ == '__main__':
     create_slr1()
     print_slr1()
     slr1()
+    with open('a','w') as f:
+        for i in rule_list:
+            f.write(f"{i.left}:{i.right}")
+        f.write(f"{VN}\n{VT}\n{First}\n{Follow}")
