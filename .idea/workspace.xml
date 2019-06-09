@@ -10,191 +10,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b614d8a9-7908-4bd1-9a1c-c291a8443d61" name="Default Changelist" comment="Default Changelist">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/15281106_徐开元_第一次实验.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/._瀹為獙婧愮爜" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/._.idea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/._Keyword.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/._Token.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/.___init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/.___pycache__" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/._main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/._punc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/._tokens.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/.idea/._codeStyles" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/.idea/._dbnavigator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/.idea/._encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/.idea/._modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/__MACOSX/瀹為獙婧愮爜/.idea/codeStyles/._Project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/.idea/codeStyles/Project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/.idea/dbnavigator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/.idea/pcc.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/Keyword.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/lexer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/pos.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/punc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/test.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/.idea/编译原理.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/.idea/SLR0.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/proj.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/rule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/rule_ori" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/slr1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/slr1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/SLR1/src.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/exe/Keywords.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/exe/Tokens.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/exe/lexer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/exe/pos.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/exe/punc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/exe/scanner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab04/15281106_徐开元_第四次实验.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab04/lab04.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab04/source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/15281106_徐开元_第五次实验.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/15281106_徐开元_第五次实验.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/config.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/lab05.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/lexer/15281106_徐开元_第一次实验.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/lexer/15281106_徐开元_第一次实验.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/mid_result/input.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/slr1/slr1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab05/slr1/source.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab06/main.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/wjx.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/编译原理研究性学习实验教学训练载体-  2016级计算机（2019春季） (1).pdf" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/15281106-徐开元-lab05.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/aeed7afec438f652b014d2e06f2c28d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/15281106_徐开元_第四次实验.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab05/15281106_徐开元_第五次实验.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab05/15281106_徐开元_第五次实验.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/15281106_徐开元_第七次实验.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/15281106_徐开元_第六次实验.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/15281106_徐开元_第六次实验源码+视频.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/lab6-演示视频.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/ui/main.ui" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/~$281106_徐开元_第七次实验.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/~$281106_徐开元_第六次实验.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/编译原理研究性学习实验教学训练载体-  2016级计算机（2019春季） (1).pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/.idea/SLR0.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/output.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/proj.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/rule.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/rule_ori" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/slr1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/slr1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/source.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/SLR1/src.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/lab04.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab04/source.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab05/lab05.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab05/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab05/proj.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab05/slr1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/main_ui.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/assembly.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/input.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/input_source.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/input_str.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/input_str_ori.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/lang.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/quadruples.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/source_ori" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/slr1/slr1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/lab06/ui/mainwindows.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler/wjx.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lexer/实验源码/Token.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/编译原理/lab06/mid_result/error.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zuoye.iml" afterPath="$PROJECT_DIR$/.idea/zuoye.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/.idea/lab05.iml" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/.idea/lab05.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/.idea/misc.xml" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/.idea/modules.xml" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/.idea/vcs.xml" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/.idea/workspace.xml" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/15281106-kaiyuanXu-lab05.doc" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/15281106-kaiyuanXu-lab05.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/15281106-kaiyuanXu-lab05.pdf" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/15281106-kaiyuanXu-lab05.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/CMakeLists.txt" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/CMakeLists.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/Lab05.pdf" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/Lab05.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/BACKING_STORE.bin" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/BACKING_STORE.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeCache.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/cmake.check_cache" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/feature_tests.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/feature_tests.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/CXX.includecache" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/CXX.includecache" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/DependInfo.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/build.make" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/build.make" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/cmake_clean.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/depend.internal" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/depend.internal" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/depend.make" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/depend.make" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/flags.make" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/flags.make" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/function.cpp.o" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/function.cpp.o" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/link.txt" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/link.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/main.cpp.o" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/main.cpp.o" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/progress.make" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/lab05.dir/progress.make" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/Makefile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/addresses.txt" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/addresses.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/cmake_install.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/correct.txt" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/correct.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/lab05" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/lab05" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/cmake-build-debug/lab05.cbp" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/cmake-build-debug/lab05.cbp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/function.cpp" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/function.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/function.h" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/function.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15281106-kaiyuanXu-lab05/main.cpp" afterPath="$PROJECT_DIR$/操作系统/15281106-kaiyuanXu-lab05/main.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/.idea/lab04.iml" afterPath="$PROJECT_DIR$/操作系统/lab04/.idea/lab04.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/.idea/misc.xml" afterPath="$PROJECT_DIR$/操作系统/lab04/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/.idea/modules.xml" afterPath="$PROJECT_DIR$/操作系统/lab04/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/.idea/workspace.xml" afterPath="$PROJECT_DIR$/操作系统/lab04/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/CMakeLists.txt" afterPath="$PROJECT_DIR$/操作系统/lab04/CMakeLists.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/README.md" afterPath="$PROJECT_DIR$/操作系统/lab04/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/Best-Fit-11.txt" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/Best-Fit-11.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeCache.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/CMakeError.log" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/CMakeError.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/cmake.check_cache" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/feature_tests.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/feature_tests.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/CXX.includecache" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/CXX.includecache" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/DependInfo.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/build.make" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/build.make" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/cmake_clean.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/contiguous.cpp.o" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/contiguous.cpp.o" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/depend.internal" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/depend.internal" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/depend.make" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/depend.make" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/flags.make" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/flags.make" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/function.cpp.o" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/function.cpp.o" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/link.txt" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/link.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/main.cpp.o" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/main.cpp.o" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/noncontiguous.cpp.o" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/noncontiguous.cpp.o" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/progress.make" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/progress.make" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/lab04.dir/test.cpp.o" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/lab04.dir/test.cpp.o" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/First-Fit-11.txt" afterPath="$PROJECT_DIR$/temp.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/Makefile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/Next-Fit-11.txt" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/First-Fit-11.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/cmake_install.cmake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/lab04" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/lab04" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/lab04.cbp" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/lab04.cbp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/cmake-build-debug/test.txt" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/contiguous.cpp" afterPath="$PROJECT_DIR$/操作系统/lab04/contiguous.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/function.cpp" afterPath="$PROJECT_DIR$/操作系统/lab04/function.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/function.h" afterPath="$PROJECT_DIR$/操作系统/lab04/function.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/github.cpp" afterPath="$PROJECT_DIR$/操作系统/lab04/github.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/main.cpp" afterPath="$PROJECT_DIR$/操作系统/lab04/main.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/main1.cpp" afterPath="$PROJECT_DIR$/操作系统/lab04/main1.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/noncontiguous.cpp" afterPath="$PROJECT_DIR$/操作系统/lab04/noncontiguous.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/process.hpp" afterPath="$PROJECT_DIR$/操作系统/lab04/process.hpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lab04/test.cpp" afterPath="$PROJECT_DIR$/操作系统/lab04/test.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lexer/15281106_徐开元_第一次实验.doc" afterPath="$PROJECT_DIR$/操作系统/lab04/cmake-build-debug/Next-Fit-11.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lexer/实验源码/tokens.txt" afterPath="$PROJECT_DIR$/compiler/lab06/mid_result/token.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/编译原理/lab05/lexer/Keyword.py" afterPath="$PROJECT_DIR$/compiler/lab06/lexer/Keyword.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/编译原理/lab05/lexer/Token.py" afterPath="$PROJECT_DIR$/compiler/lab06/lexer/Token.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/编译原理/lab05/lexer/lexer.py" afterPath="$PROJECT_DIR$/compiler/lab06/lexer/lexer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/编译原理/lab05/lexer/pos.py" afterPath="$PROJECT_DIR$/compiler/lab06/lexer/pos.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/编译原理/lab05/lexer/punc.py" afterPath="$PROJECT_DIR$/compiler/lab06/lexer/punc.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/编译原理/lab05/lexer/scanner.py" afterPath="$PROJECT_DIR$/compiler/lab06/lexer/scanner.py" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -391,7 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="操作系统" />
+              <option name="myItemId" value="compiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -790,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559699860819</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Default Changelist">
+      <created>1560093499986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560093499986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -864,7 +743,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/a.html" />
     <entry file="file://$PROJECT_DIR$/temp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1226,6 +1104,11 @@
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler/aeed7afec438f652b014d2e06f2c28d.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

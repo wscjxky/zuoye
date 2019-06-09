@@ -1,0 +1,11 @@
+G[S]:
+S->km(){Pr}
+P->KAI|KA
+I->i(C){A}
+C->v<d|v>d
+K->kv
+A->v=E
+E->E+T|E-T|T
+T->T*F|T/F|F
+F->(E)|d
+V->d

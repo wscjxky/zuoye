@@ -1,0 +1,9 @@
+S -> A
+A -> V=E
+E -> E + T
+E -> E - T
+E -> E * T
+T -> (E)
+E -> i
+V -> i
+T -> i

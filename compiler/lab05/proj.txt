@@ -1,0 +1,257 @@
+项目集族如下
+I0
+S -> .km(){Pr}
+I1
+S -> k.m(){Pr}
+I2
+S -> km.(){Pr}
+I3
+S -> km(.){Pr}
+I4
+S -> km().{Pr}
+I5
+S -> km(){.Pr}
+P -> .KAI
+P -> .KA
+K -> .kv
+I6
+S -> km(){P.r}
+I7
+P -> K.AI
+P -> K.A
+A -> .v=E
+I8
+K -> k.v
+I9
+S -> km(){Pr.}
+I10
+P -> KA.I
+P -> KA.
+I -> .i(C){A}
+I11
+A -> v.=E
+I12
+K -> kv.
+I13
+S -> km(){Pr}.
+I14
+P -> KAI.
+I15
+I -> i.(C){A}
+I16
+A -> v=.E
+E -> .E+T
+E -> .E-T
+E -> .T
+T -> .T*F
+T -> .T/F
+T -> .F
+F -> .(E)
+F -> .d
+I17
+I -> i(.C){A}
+C -> .vcd
+I18
+A -> v=E.
+E -> E.+T
+E -> E.-T
+I19
+E -> T.
+T -> T.*F
+T -> T./F
+I20
+T -> F.
+I21
+F -> (.E)
+E -> .E+T
+E -> .E-T
+E -> .T
+T -> .T*F
+T -> .T/F
+T -> .F
+F -> .(E)
+F -> .d
+I22
+F -> d.
+I23
+I -> i(C.){A}
+I24
+C -> v.cd
+I25
+E -> E+.T
+T -> .T*F
+T -> .T/F
+T -> .F
+F -> .(E)
+F -> .d
+I26
+E -> E-.T
+T -> .T*F
+T -> .T/F
+T -> .F
+F -> .(E)
+F -> .d
+I27
+T -> T*.F
+F -> .(E)
+F -> .d
+I28
+T -> T/.F
+F -> .(E)
+F -> .d
+I29
+F -> (E.)
+E -> E.+T
+E -> E.-T
+I30
+I -> i(C).{A}
+I31
+C -> vc.d
+I32
+E -> E+T.
+T -> T.*F
+T -> T./F
+I33
+E -> E-T.
+T -> T.*F
+T -> T./F
+I34
+T -> T*F.
+I35
+T -> T/F.
+I36
+F -> (E).
+I37
+I -> i(C){.A}
+A -> .v=E
+I38
+C -> vcd.
+I39
+I -> i(C){A.}
+I40
+I -> i(C){A}.
+
+识别活前缀的DFA如下
+初始状态	接收终结符	到达的状态	
+I0		k		I1		
+
+I1		m		I2		
+
+I2		(		I3		
+
+I3		)		I4		
+
+I4		{		I5		
+
+I5		P		I6		
+
+I5		K		I7		
+
+I5		k		I8		
+
+I6		r		I9		
+
+I7		A		I10		
+
+I7		v		I11		
+
+I8		v		I12		
+
+I9		}		I13		
+
+I10		I		I14		
+
+I10		i		I15		
+
+I11		=		I16		
+
+I15		(		I17		
+
+I16		E		I18		
+
+I16		T		I19		
+
+I16		F		I20		
+
+I16		(		I21		
+
+I16		d		I22		
+
+I17		C		I23		
+
+I17		v		I24		
+
+I18		+		I25		
+
+I18		-		I26		
+
+I19		*		I27		
+
+I19		/		I28		
+
+I21		E		I29		
+
+I21		T		I19		
+
+I21		F		I20		
+
+I21		(		I21		
+
+I21		d		I22		
+
+I23		)		I30		
+
+I24		c		I31		
+
+I25		T		I32		
+
+I25		F		I20		
+
+I25		(		I21		
+
+I25		d		I22		
+
+I26		T		I33		
+
+I26		F		I20		
+
+I26		(		I21		
+
+I26		d		I22		
+
+I27		F		I34		
+
+I27		(		I21		
+
+I27		d		I22		
+
+I28		F		I35		
+
+I28		(		I21		
+
+I28		d		I22		
+
+I29		)		I36		
+
+I29		+		I25		
+
+I29		-		I26		
+
+I30		{		I37		
+
+I31		d		I38		
+
+I32		*		I27		
+
+I32		/		I28		
+
+I33		*		I27		
+
+I33		/		I28		
+
+I37		A		I39		
+
+I37		v		I11		
+
+I39		}		I40		
+

@@ -1,0 +1,22 @@
+SLR(1)分析表如下
+状态		ACTION					GOTO		
+	=	+	-	*	/	(	)	i	#	V	E	T	F	
+0	None	None	None	None	None	None	None	s2	None	1	None	None	None	
+1	s3	None	None	None	None	None	None	None	None	None	None	None	None	
+2	r9	None	None	None	None	None	None	None	None	None	None	None	None	
+3	None	None	None	None	None	s7	None	s8	None	None	4	5	6	
+4	None	s9	s10	None	None	None	None	None	acc	None	None	None	None	
+5	None	r3	r3	s11	s12	None	r3	None	r3	None	None	None	None	
+6	None	r6	r6	r6	r6	None	r6	None	r6	None	None	None	None	
+7	None	None	None	None	None	s7	None	s8	None	None	13	5	6	
+8	None	r8	r8	r8	r8	None	r8	None	r8	None	None	None	None	
+9	None	None	None	None	None	s7	None	s8	None	None	None	14	6	
+10	None	None	None	None	None	s7	None	s8	None	None	None	15	6	
+11	None	None	None	None	None	s7	None	s8	None	None	None	None	16	
+12	None	None	None	None	None	s7	None	s8	None	None	None	None	17	
+13	None	s9	s10	None	None	None	s18	None	None	None	None	None	None	
+14	None	r1	r1	s11	s12	None	r1	None	r1	None	None	None	None	
+15	None	r2	r2	s11	s12	None	r2	None	r2	None	None	None	None	
+16	None	r4	r4	r4	r4	None	r4	None	r4	None	None	None	None	
+17	None	r5	r5	r5	r5	None	r5	None	r5	None	None	None	None	
+18	None	r7	r7	r7	r7	None	r7	None	r7	None	None	None	None	
